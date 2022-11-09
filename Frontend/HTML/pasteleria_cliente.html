@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Space Cake</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="./Space_cake.png" alt="Logo"></li>
+                <li><a href="#Sabores">Sabores</a></li>
+                <li><a href="#Adornos">Adornos</a></li>
+                <li><a href="#Cotizar">Cotizar</a></li>
+            </ul>
+        </nav>
+        <h1>Space Cake</h1>
+        <img id="cake" src="./cakes.jpg" alt="fondo">
+    </header>
+    <main>
+        <section id="Sabores">
+            <h2>Sabores</h2>
+            <ul>
+                <li>Chocolate .......................................... $150</li>
+                <li>Vainilla .............................................. $175</li>
+                <li>CheseCake ........................................ $167</li>
+                <li>Manzana ........................................... $183</li>
+                <li>Zanahoria .......................................... $172</li>
+            </ul>
+            <img src="./cake.jpg" alt="fresas">
+        </section>
+        <section id="Adornos">
+            <h2>Adornos</h2>
+            <ul>
+                <li>Fresas .............................................. $50</li>
+                <li>Trufas .............................................. $75</li>
+                <li>Chocolate ........................................ $67</li>
+                <li>Galletas ........................................... $83</li>
+                <li>Cerezas ........................................... $72</li>
+            </ul>
+            <img src="./strawberries.jpg" alt="fresas">
+        </section>
+        <section id="Cotizar">
+            <form action="#">
+                <h2>Cotizar</h2>
+
+                <label for="nombre">Nombre</label>
+                <input class="personal-data" id="nombre" name="nombre" type="text"/>
+
+                <label for="telefono">Telefono</label>
+                <input class="personal-data" id="telefono" name="telefono" type="tel" maxlength="10"/>
+
+                <label for="email">E-mail</label>
+                <input class="personal-data" id="email" name="email" type="email" />
+
+                <label for="descripcion-pastel">Descripción general del pastel</label>
+                <textarea></textarea>
+
+                <h3>Sabores</h3>
+                <label class="checkbox" for="chocolate"><input id="chocolate" name="chocolate" type="checkbox" value="chocolate"/> Chocolate</label>
+                <label class="checkbox" for="vainilla"><input id="vainilla" name="vainilla" type="checkbox" value="vainilla"/> Vainilla</label>
+                <label class="checkbox" for="chesecake"><input id="chesecake" name="chesecake" type="checkbox" value="chesecake"/> CheseCake</label>
+                <label class="checkbox" for="manzana"><input id="manzana" name="manzana" type="checkbox" value="manzana"/> Manzana</label>
+                <label class="checkbox" for="zanahoria"><input id="zanahoria" name="zanahoria" type="checkbox" value="zanahoria"/> Zanahoria</label>
+
+                <h3>Adornos</h3>
+                <label class="checkbox" for="fresas"><input id="fresas" name="fresas" type="checkbox" value="fresas"/> Chocolate</label>
+                <label class="checkbox" for="trufas"><input id="trufas" name="trufas" type="checkbox" value="trufas"/> Vainilla</label>
+                <label class="checkbox" for="chocolate"><input id="chocolate" name="chocolate" type="checkbox" value="chocolate"/> Chocolate</label>
+                <label class="checkbox" for="galletas"><input id="galletas" name="galletas" type="checkbox" value="galletas"/> Cerezas</label>
+                <label class="checkbox" for="cerezas"><input id="cerezas" name="cerezas" type="checkbox" value="cerezas"/> Cerezas</label>
+
+                <button id="submit-btn" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div id="contacto-horarios">
+            <div>
+                <h4>Contacto</h4>
+                <dl>
+                    <dt>Dirección</dt>
+                        <dd>Ignacio Beteta 52, Maquixco, 55800 San Juan Teotihuacan de Arista, Méx.</dd>
+                    <dt>Teléfono</dt>
+                        <dd>5544338877</dd>
+                </dl>
+            </div>
+            <div>
+                <h4>Horarios</h4>
+                <dl>
+                    <dt>Lunes - Viernes</dt>
+                        <dd>10:00 AM - 20:00 PM</dd>
+                </dl>
+            </div>
+        </div>
+        <p>© 2022 Saul Malagon Martinez</p>
+    </footer>
+</body>
+</html>
