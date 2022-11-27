@@ -9,11 +9,9 @@
     font-family: 'Assistant', sans-serif;
     color: #8D99AE;
     font-weight: 700;
-
 }
 
 /* ===== Componentes ===== */
-
 .btn {
     background-color: #3454D2;
     color: white;
@@ -27,6 +25,29 @@
 .image-wrap img {
     width: 100%;
     height: auto;
+}
+
+.cards {
+    width: 226px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 20px #2A4AC7;
+    padding: 2rem;
+    font-size: 0.8rem;
+}
+
+.cards h3 {
+    color: #3858D6;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.cards i {
+    font-size: 1.8rem;
+    background-color: #E9F0FD;
+    box-shadow: 0px 2px 5px #E9F0FD;
+    padding: 0.5rem 1rem;
+    color: #2A4AC7;
+    border-radius: 3px;
 }
 
 /* ===== Header ===== */
@@ -68,7 +89,7 @@ nav ul {
 
 #fight-virus_content {
     width: 50%;
-    padding: 1rem 3rem 1rem 6rem;
+    padding: 1rem 3rem 1rem 12rem;
 }
 
 #fight-virus_content h1 {
@@ -84,7 +105,7 @@ nav ul {
 
 #fight-virus_content #info-2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 3rem 0;
 }
 
@@ -145,6 +166,36 @@ nav ul {
 #fight-virus_image img {
     width: 150%;
 }
+
+/* ===== Section Logos ===== */
+#logos {
+    margin: 2rem 0;
+}
+
+
+/* ===== Section why should i vaccine? ===== */
+#why-should-i-vaccine {
+    margin: 2rem 0;
+}
+
+#wsiv_desc {
+    width: 50%;
+    padding-left: 6rem;
+    margin: 2rem 0;
+}
+
+#wsiv_desc h2 {
+    color:#3858D6;
+    margin: 1rem 0;
+}
+
+#wsiv_benefits {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
 
 /* ===== Footer ===== */
 footer {
